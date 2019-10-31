@@ -1,0 +1,18 @@
+<p align="center"><img src="icons/logo.png" alt="Obole Extension" width="166px"></p>
+
+Extension for Obole. Voluntary advertising visualization platform for content creators and advertisers.
+
+## General
+
+### Execute
+
+Drag and drop extension folder in following Chrome tab :
+
+```bash
+chrome://extensions/
+```
+
+## Authors
+
+* [MATI Audric](https://github.com/odrik)
+* [VARVEROPOULOS Valentin](https://github.com/firenaik)
