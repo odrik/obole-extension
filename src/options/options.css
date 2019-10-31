@@ -1,0 +1,75 @@
+body {
+	margin-top: 60px;
+	background-color: #fafafa;
+}
+
+.logo {
+	width: 190px;
+	height: auto;
+	margin: 40px auto;
+}
+
+section {
+	-webkit-padding-start: 18px;
+	-webkit-padding-end: 18px;
+	margin-bottom: 24px;
+	margin-top: 8px
+}
+
+section > div > div {
+	padding-bottom: 10px;
+}
+
+.radiobox, .checkbox, .selectbox {
+	margin: 0.65em 0;
+	min-height: 28px;
+}
+
+#options_container {
+	width: 520px;
+	-webkit-margin-end: 24px;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+#status {
+	transition: all 500ms ease;
+    transition-property: top,right,bottom,left,opacity;
+    font-size: 16px;
+    min-height: 14px;
+    background-color: #404040;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    line-height: 22px;
+    padding: 18px 24px;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    cursor: default;
+    border-radius: 4px;
+    font-weight: 300;
+    display: none;
+}
+
+#status:empty {
+	display: none;
+}
+
+#status.visible {
+	display: none;
+}
+
+.search {
+	margin-bottom: 100px;
+}
+
+.search-button {
+	width: 100%;
+}
+
+#title_options {
+	margin: 0px auto;
+}
