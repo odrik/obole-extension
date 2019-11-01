@@ -24,8 +24,8 @@ function init() {
 			$channel = $channel.split("/").pop();
 			console.log('[INFO] : Channel ID ' + $channel);
 			$.ajax({
-			  	method: "POST",
-			  	url: "https://odrik.fr/public/index.php/api/search",
+			  	method: "GET",
+			  	url: "https://odrik.fr/public/api/search",
 				data: {
 					social: social,
 					search: $channel

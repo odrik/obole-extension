@@ -1,8 +1,8 @@
 {
-  "name": "Obole",
+  "name": "Obole Extension",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Obole Extension",
+  "description": "Extension for Obole. Voluntary advertising visualization platform for content creators and advertisers.",
   "homepage_url": "https://obole.eu",
   "icons": {
     "16": "icons/icon16.png",
@@ -27,7 +27,6 @@
       "css": [ "src/inject/inject.css" ],
       "js": [ 
         "js/jquery/jquery.min.js",
-        "src/inject/inject.css",
         "src/inject/inject.js"
       ],
       "matches": [ "*://www.youtube.com/*" ]
