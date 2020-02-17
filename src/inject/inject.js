@@ -18,7 +18,20 @@ function init() {
 		$('.obole-container').html('');
 		console.log("[INFO] : Testing…");
 
+		// Version 1 : en lisant le code HTML de la page
 		$channel = $('body').find('a[href*="/channel/"]').first().attr("href");
+
+		// Version 2 : en utilisant l'API Youtube
+		// function youtube_parser(url){
+		//     var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+		//     var match = url.match(regExp);
+		//     return (match&&match[7].length==11)? match[7] : false;
+		// }
+		// console.log('[INFO] Video ID : ', youtube_parser(window.location.href));
+		// $.get("https://www.googleapis.com/youtube/v3/videos", {part:"snippet", key:"AIzaSyA-PgwtYXtIH46C7rwHtE6qBdH4DbdTcew", id:"o_jWNAh_aQA"}, function(data) {
+		// 	$channel = data.items[0].snippet.channelId;
+		// 	console.log('[INFO] : Channel ID ' + data.items[0].snippet.channelId);
+		// });
 
 		if ($channel) {
 			$channel = $channel.split("/").pop();
