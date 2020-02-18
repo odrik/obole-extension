@@ -1,6 +1,6 @@
 {
   "name": "Obole Extension",
-  "version": "1.0",
+  "version": "1.2",
   "manifest_version": 2,
   "description": "Extension for Obole. Voluntary advertising visualization platform for content creators and advertisers.",
   "homepage_url": "https://obole.eu",
@@ -9,7 +9,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
+  "default_locale": "fr",
   "background": {
     "scripts": [
       "src/bg/background.js"

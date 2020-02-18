@@ -4,9 +4,9 @@ Extension for Obole. Voluntary advertising visualization platform for content cr
 
 ## General
 
-### Execute
+### Execute 
 
-Drag and drop extension folder in following Chrome tab :
+Drag and drop extension folder in following Chrome tab : 
 
 ```bash
 chrome://extensions/
