@@ -72,45 +72,7 @@ function init() {
 					
 					$('.obole-button').on("click", openLink);
 
-					// var sb_btn = document.createElement('div');
-     //                sb_btn.id = "obole-tab";
-     //                sb_btn.innerHTML = `
-     //                <style>	
-     //                		a {
-     //                			text-decoration: none;
-     //                		}
-     //                        #socialblade-tab paper-button {
-     //                            background-color: #2a41e8 !important;
-     //                            border-radius: 2px;
-     //                            color: #ffffff !important;
-     //                            padding: 10px 16px;
-     //                            margin: auto 4px;
-     //                            white-space: nowrap;
-     //                            font-size: 1.4rem;
-     //                            font-weight: 500;
-     //                            letter-spacing: .007px;
-     //                            text-transform: uppercase;
-     //                            display: flex;
-     //                            -ms-flex-direction: row;
-     //                            -webkit-flex-direction: row;
-     //                            flex-direction: row;
-     //                            box-shadow: none!important;
-     //                        }
-     //                        #socialblade-tab paper-button img {
-     //                            width: 25px;
-     //                            padding-right: 10px;
-     //                            padding-bottom: 2px;
-     //                        }
-     //                    </style>
-     //                    <a href="${link}"><paper-button role="button" tabindex="0" animated="" aria-disabled="false" elevation="O" raised="" id="button" class="style-scope ytd-button-renderer style-default">
-     //                        SOUTENIR SUR OBOLE
-     //                        <paper-ripple class="style-scope paper-button">
-     //                            <div id="background" class="style-scope paper-ripple"></div>
-     //                            <div id="waves" class="style-scope paper-ripple"></div>
-     //                        </paper-ripple>
-     //                    </paper-button></a>`;
-     //                if (document.getElementById("obole-tab") == null) document.getElementById("channel-header-container").insertBefore(sb_btn, document.getElementById("channel-header-container").children[3]);
-
+				
 				}
 			});
 		}
