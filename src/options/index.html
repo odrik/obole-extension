@@ -37,21 +37,5 @@
     </div>
     <div id="status"></div>
     <script type="text/javascript" src="options.js"></script>
-    <script type="text/javascript">
-      $('autocomplete-input').click(function() {
-      $.ajax({
-          method: "GET",
-          url: "https://odrik.fr/public/api/search",
-          data: {
-            term: social,
-          }
-        }).done(function(res) {
-          console.log(res);
-          if (res.success) {
-            console.log('success');
-          }
-      });
-    });
-    </script>
   </body>
 </html>
