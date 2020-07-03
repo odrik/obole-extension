@@ -38,7 +38,7 @@ function init() {
 			console.log('[INFO] : Channel ID ' + $channel);
 			$.ajax({
 			  	method: "GET",
-			  	url: "https://odrik.fr/public/api/searchPage",
+			  	url: "https://obole.odrik.fr/api/searchPage",
 				data: {
 					social: social,
 					search: $channel
@@ -53,8 +53,8 @@ function init() {
 					//console.log("[INFO] : layout version " + layout);
 					
 					var utipButton = '<button class="obole-button"><svg role="img" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 6.34884C12.2368 6.34884 6.34884 12.2368 6.34884 19.5C6.34884 26.7632 12.2368 32.6512 19.5 32.6512C26.7632 32.6512 32.6512 26.7632 32.6512 19.5C32.6512 12.2368 26.7632 6.34884 19.5 6.34884ZM0 19.5C0 8.73045 8.73045 0 19.5 0C30.2696 0 39 8.73045 39 19.5C39 30.2696 30.2696 39 19.5 39C8.73045 39 0 30.2696 0 19.5Z" fill="url(#paint0_linear)"/> <defs> <linearGradient id="paint0_linear" x1="2.2694" y1="-6.05172" x2="39" y2="36.7726" gradientUnits="userSpaceOnUse"> <stop offset="0.287293" stop-color="#E14479"/> <stop offset="0.823204" stop-color="#314CDE"/> </linearGradient> </defs> </svg></button>';
-					
-					var button = '<div class="obole-container">'+utipButton+'</div>';
+					var tooltip = '<yt-formatted-string id="text" class="style-scope ytd-toggle-button-renderer style-text" aria-label="4 020&nbsp;clics sur &quot;Je n\'aime pas&quot;">4&nbsp;k</yt-formatted-string><paper-tooltip class="style-scope ytd-toggle-button-renderer" role="tooltip" tabindex="-1" style="left: 28.2109px; right: auto; top: 44px; bottom: auto;">Soutenir avec Obole</paper-tooltip>'
+					var button = '<div class="obole-container">'+utipButton+tooltip+'</div>';
 					
 					if ($('#iri-quick-controls-container').length > 0) {
 						$('#iri-quick-controls-container').append(utipButton);
