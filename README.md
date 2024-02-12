@@ -14,5 +14,5 @@ chrome://extensions/
 
 ## Authors
 
-* [MATI Audric](https://github.com/odrik)
-* [VARVEROPOULOS Valentin](https://github.com/firenaik)
+* [Audric](https://github.com/odrik)
+* [Valentin](https://github.com/firenaik)
