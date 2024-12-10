@@ -1,4 +1,4 @@
-<p align="center"><img src="icons/logo.png" alt="Obole Extension" width="166px"></p>
+<p align="center"><img src="icons/logo.png" alt="Obole Extension" width="210px"></p>
 
 Extension for Obole. Voluntary advertising visualization platform for content creators and advertisers.
 
